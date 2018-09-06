@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>feature-1</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2.about" transform="translate(-98.000000, -1188.000000)">
+            <g id="feature-1" transform="translate(98.615744, 1188.391702)">
+                <circle id="Oval" fill="#FFFFFF" cx="35.5" cy="35.5" r="35.5"/>
+                <g id="bolt" transform="translate(24.500000, 17.500000)" fill="#FE9518" fill-rule="nonzero">
+                    <polygon id="Shape" points="13.1833167 0 0 21.9721945 8.7888778 21.9721945 8.7888778 35.1555112 21.9721945 13.1833167 13.1833167 13.1833167"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

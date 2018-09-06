@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>taiga</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5.footer" transform="translate(-623.000000, -234.000000)">
+            <g id="Group" transform="translate(98.000000, 233.627857)">
+                <g id="taiga" transform="translate(525.239037, 0.000000)">
+                    <circle id="Oval" fill="#FE9518" cx="35.4292774" cy="35.9942958" r="35.4292774"/>
+                    <g id="taiga-seeklogo.com" transform="translate(11.514515, 12.079534)" fill="#FFFFFF" fill-rule="nonzero" stroke="#FE9518">
+                        <polygon id="Shape" points="41.3264392 8.09173071 39.1221966 23.6061056 23.6078216 21.4018631 25.8120643 5.88748809"/>
+                        <polygon id="Shape" points="5.87507799 39.1159906 8.07932061 23.6016157 23.5936956 25.8058583 21.3894529 41.3202333"/>
+                        <polygon id="Shape" points="8.07932654 5.90809867 23.5937015 8.11234131 21.389459 23.6267164 5.87508392 21.4224737"/>
+                        <polygon id="Shape" points="39.1040326 41.3220399 23.5896576 39.1177972 25.7939002 23.6034223 41.3082752 25.8076649"/>
+                        <polygon id="Shape" points="22.0448501 47.0950545 12.6331653 34.5660999 25.1621199 25.1544151 34.5738047 37.6833697"/>
+                        <polygon id="Shape" points="47.0707537 25.1306758 34.541799 34.5423608 25.1301142 22.0134062 37.659069 12.6017213"/>
+                        <polygon id="Shape" points="25.1393329 0.102050553 34.5510177 12.6310052 22.0220631 22.0426901 12.6103784 9.51373537"/>
+                        <polygon id="Shape" points="0.0853680739 22.0555315 12.6143227 12.6438467 22.0260075 25.1728013 9.49705283 34.5844861"/>
+                        <polygon id="Shape" points="23.5780542 17.6411478 29.5354672 23.5985609 23.5780542 29.5559738 17.6206412 23.5985609"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>feature-3</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2.about" transform="translate(-98.000000, -1665.000000)">
+            <g id="feature-3" transform="translate(98.465418, 1665.931423)">
+                <circle id="Oval-Copy-5" fill="#FFFFFF" cx="35.5" cy="35.5" r="35.5"/>
+                <g id="pulse" transform="translate(19.500000, 21.000000)" fill="#FE9518" fill-rule="nonzero">
+                    <polygon id="Shape" points="12.700527 0 10.8638354 5.9790173 7.81570889 15.9831247 7.69847326 15.7486534 7.34676636 14.4199829 0 14.4199829 0 18.3278374 4.53311116 18.3278374 6.01809585 22.8609485 7.85478744 28.6054946 9.69147903 22.7437129 12.7396055 12.9740768 15.787732 22.7437129 17.3899523 27.9802378 19.4611151 22.9781842 21.7667493 17.2336381 22.2747704 18.3278374 31.3019141 18.3278374 31.3019141 14.4199829 24.6976401 14.4199829 23.2126554 11.4890921 21.2587282 7.69847326 19.6565079 11.7235633 17.8198163 16.3739101 14.5372185 5.9790173"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

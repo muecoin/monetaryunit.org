@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>feature-2</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2.about" transform="translate(-99.000000, -1411.000000)">
+            <g id="feature-2" transform="translate(99.155451, 1410.431423)">
+                <circle id="Oval-Copy-3" fill="#FFFFFF" cx="35.5" cy="36.1" r="35.5"/>
+                <g id="loop-circular" transform="translate(17.500000, 22.600000)" fill="#FE9518" fill-rule="nonzero">
+                    <path d="M17.5236973,0 C10.2951722,0 4.38092432,5.91424783 4.38092432,13.142773 L0,13.142773 L6.57138648,21.9046216 L13.142773,13.142773 L8.76184864,13.142773 C8.76184864,8.27994697 12.6608713,4.38092432 17.5236973,4.38092432 L17.5236973,0 Z M28.4760081,4.38092432 L21.9046216,13.142773 L26.2855459,13.142773 C26.2855459,18.005599 22.3865233,21.9046216 17.5236973,21.9046216 L17.5236973,26.2855459 C24.7522224,26.2855459 30.6664703,20.3712981 30.6664703,13.142773 L35.0473946,13.142773 L28.4760081,4.38092432 Z" id="Shape"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
