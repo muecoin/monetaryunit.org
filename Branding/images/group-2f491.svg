@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="171px" viewBox="0 0 512 171" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Branding" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="06" transform="translate(-928.000000, -451.000000)">
+            <g id="Group-2" transform="translate(927.000000, 451.000000)">
+                <path d="M1.55171092,6 L622.14512,6" id="Line" stroke="#FE9518" stroke-width="12"></path>
+                <path d="M1.55171092,43.5 L622.14512,43.5" id="Line-Copy" stroke="#FE9518" stroke-width="3"></path>
+                <path d="M1.55171092,84.5 L622.14512,84.5" id="Line-Copy-2" stroke="#FE9518" stroke-dasharray="2,2"></path>
+                <path d="M1.55171092,135 L622.14512,135 L622.14512,142 L1.55171092,142 L1.55171092,135 Z M1.55171092,127 L1.55171092,126 L622.14512,126 L622.14512,127 L1.55171092,127 Z" id="Combined-Shape" fill="#FEB518" fill-rule="nonzero"></path>
+                <path d="M1.55171092,169.5 L132.000723,169.5" id="Line-Copy-4" stroke="#FEDA18" stroke-width="3"></path>
+                <path d="M340.400974,168.5 L621.979939,168.5" id="Line-Copy-5" stroke="#FEDA18" stroke-width="3" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>
