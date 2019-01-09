@@ -19,7 +19,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>MonetaryUnit</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=4122625636"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=3777018749" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?v=4" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="css/iefonts_index.css?crc=4039867141"/>
@@ -50,6 +50,41 @@ min-height:100vh !important
 height:100vh !important;
 min-height:100vh !important;
 }
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 </style>
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -86,10 +121,11 @@ min-height:100vh !important;
           <li class="MenuItemContainer clearfix colelem" id="u152994"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox rgba-background clearfix grpelem" id="u152997" href="index.html#about"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u153000-4"><!-- content --><div id="u153000-3" class="shared_content" data-content-guid="u153000-3_content"><p id="u153000-2">ABOUT</p></div></div></a></li>
           <li class="MenuItemContainer clearfix colelem" id="u156630"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox rgba-background clearfix grpelem" id="u156631" href="index.html#features"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u156632-4"><!-- content --><div id="u156632-3" class="shared_content" data-content-guid="u156632-3_content"><p>FEATURES</p></div></div></a></li>
           <li class="MenuItemContainer clearfix colelem" id="u152966"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox rgba-background clearfix grpelem" id="u152967" href="index.html#why-mue"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u152968-4"><!-- content --><div id="u152968-3" class="shared_content" data-content-guid="u152968-3_content"><p>WHY MUE?</p></div></div></a></li>
-          <li class="MenuItemContainer clearfix colelem" id="u152980"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox rgba-background clearfix grpelem" id="u152981" href="index.html#get-started"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u152982-4"><!-- content --><div id="u152982-3" class="shared_content" data-content-guid="u152982-3_content"><p>GET STARTED</p></div></div></a></li>
-          <li class="MenuItemContainer clearfix colelem" id="u176119"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox rgba-background clearfix grpelem" id="u176120" href="index.html#team"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u176122-4"><!-- content --><div id="u176122-3" class="shared_content" data-content-guid="u176122-3_content"><p>TEAM</p></div></div></a></li>
-          <li class="MenuItemContainer clearfix colelem" id="u152987"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox rgba-background clearfix grpelem" id="u152990" href="index.html#community"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u152993-4"><!-- content --><div id="u152993-3" class="shared_content" data-content-guid="u152993-3_content"><p>COMMUNITY</p></div></div></a></li>
-          <li class="MenuItemContainer clearfix colelem" id="u153001"><!-- horizontal box --><div class="MenuItem MenuItemWithSubMenu borderbox rgba-background clearfix grpelem" id="u153002" href="/Branding/"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u153003-4"><!-- content --><div id="u153003-3" class="shared_content" onclick="location.href='Branding'" data-content-guid="u153003-3_content"><p>BRANDING GUIDE</p></div></div></div></li>
+          <li class="MenuItemContainer clearfix colelem" id="u152980"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox rgba-background clearfix grpelem" id="u152981" href="index.html#team"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u152982-4"><!-- content --><div id="u152982-3" class="shared_content" data-content-guid="u152982-3_content"><p>TEAM</p></div></div></a></li>
+          <li class="MenuItemContainer clearfix colelem" id="u176119"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox rgba-background clearfix grpelem" id="u176120" href="index.html#community"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u176122-4"><!-- content --><div id="u176122-3" class="shared_content" data-content-guid="u176122-3_content"><p>COMMUNITY</p></div></div></a></li>
+          <li class="MenuItemContainer clearfix colelem" id="u152987"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox rgba-background clearfix grpelem" id="u152990" href="#additional"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u152993-4"><!-- content --><div id="u152993-3" class="shared_content" data-content-guid="u152993-3_content"><p>ADDITIONAL</p></div></div></a></li>
+          <!--<li class="MenuItemContainer clearfix colelem" id="u153001"><div class="MenuItem MenuItemWithSubMenu borderbox rgba-background clearfix grpelem" id="u153002" href="/Branding/"><div class="MenuItemLabel NoWrap clearfix grpelem" id="u153003-4"><div id="u153003-3" class="shared_content" onclick="location.href='Branding'" data-content-guid="u153003-3_content"><p>BRANDING GUIDE</p></div></div></div></li>
+          <li class="MenuItemContainer clearfix colelem" id="u152990"><div class="MenuItem MenuItemWithSubMenu borderbox rgba-background clearfix grpelem" id="u152990" href="/donors/"><div class="MenuItemLabel NoWrap clearfix grpelem" id="u152990-4"><div id="u152990-3" class="shared_content" onclick="location.href='donors'" data-content-guid="u152990-3_content"><p>DONORS</p></div></div></div></li>-->
          </ul>
         </div>
        </div>
@@ -122,7 +158,8 @@ min-height:100vh !important;
        </div>
       </div>
       <div class="Button clearfix grpelem shared_content" id="pbuttonu136760" data-content-guid="pbuttonu136760_content"><!-- group -->
-       <a class="nonblock nontext rounded-corners btn-2 shadow clearfix grpelem" id="buttonu136760" href="https://bittrex.com/Market/Index?MarketName=BTC-MUE" target="_blank"><!-- container box --><div class="transition clearfix grpelem" id="u136761-4"><!-- content --><p id="u136761-2">buy mue now on bittrex</p></div></a>
+      <a class="nonblock nontext rounded-corners btn-2 shadow clearfix grpelem" id="buttonu136760" href="javascript:window.open('buy.php', 'Buy Now!', 'width=906,height=635');" target="_blank"><div class="transition clearfix grpelem" id="u136761-4"><p id="u136761-2">buy now!</p></div></a>
+       <!--<a class="nonblock nontext rounded-corners btn-2 shadow clearfix grpelem" id="buttonu136760" href="https://bittrex.com/Market/Index?MarketName=BTC-MUE" target="_blank"><div class="transition clearfix grpelem" id="u136761-4"><p id="u136761-2">buy now on bittrex!</p></div></a>-->
       </div>
       <div class="clearfix grpelem shared_content" id="u147310" data-content-guid="u147310_content"><!-- group -->
        <div class="clearfix grpelem" id="u147311"><!-- group -->
@@ -171,10 +208,10 @@ min-height:100vh !important;
          <div class="clearfix grpelem shared_content" id="ppu151491-4" data-content-guid="ppu151491-4_content"><!-- column -->
           <div class="clearfix colelem" id="pu151491-4"><!-- group -->
            <div class="counter clearfix grpelem shared_content" id="u151491-4" data-content-guid="u151491-4_content"><!-- content -->
-            <p id="u151491-2">137,303,772</p>
+            <p id="u151491-2">147,698,297</p>
            </div>
            <div class="counter clearfix grpelem shared_content" id="u151509-4" data-content-guid="u151509-4_content"><!-- content -->
-            <p id="u151509-2">66,500,000</p>
+            <p id="u151509-2">43,500,000</p>
            </div>
           </div>
           <div class="clearfix colelem" id="pu157043-4"><!-- group -->
@@ -201,13 +238,13 @@ min-height:100vh !important;
          </div>
          <div class="clearfix grpelem shared_content" id="pu151527-4" data-content-guid="pu151527-4_content"><!-- column -->
           <div class="counter clearfix colelem shared_content" id="u151527-4" data-content-guid="u151527-4_content"><!-- content -->
-           <p id="u151527-2">36</p>
+           <p id="u151527-2">40</p>
           </div>
           <div class="ele-txt-down clearfix colelem shared_content" id="u157115-4" data-content-guid="u157115-4_content"><!-- content -->
            <p><span class="SUB-TITLE" id="u157115">MUE</span></p>
           </div>
           <div class="ele-txt-down clearfix colelem shared_content" id="u141241-4" data-content-guid="u141241-4_content"><!-- content -->
-           <p id="u141241-2"><span class="SUB-TITLE" id="u141241">per block</span></p>
+           <p id="u141241-2"><span class="SUB-TITLE" id="u141241">per block (5 for budgets)</span></p>
           </div>
          </div>
         </div>
@@ -236,7 +273,8 @@ min-height:100vh !important;
          <div class="clearfix ose_pre_init colelem shared_content" id="u157531-4" data-content-guid="u157531-4_content"><!-- content -->
           <p id="u157531-2">GET STARTED</p>
          </div>
-         <a class="nonblock nontext Button btn-1 shadow clearfix colelem shared_content" id="buttonu157529" href="https://github.com/muecoin/MUECore/releases/latest" target="_blank" data-content-guid="buttonu157529_content"><!-- container box --><div class="transition clearfix grpelem" id="u157530-4"><!-- content --><p>DOWNLOAD WALLET</p></div></a>
+         <a class="nonblock nontext Button btn-1 shadow clearfix colelem shared_content" id="buttonu157529" href="https://github.com/muecoin/MUE/releases" target="_blank" data-content-guid="buttonu157529_content"><!-- container box --><div class="transition clearfix grpelem" id="u157530-4"><!-- content --><p>DOWNLOAD WALLET</p></div></a>
+         <a class="nonblock nontext Button btn-1 shadow colelem shared_content" id="buttonu157529" href="https://play.google.com/store/apps/details?id=com.muepay.wallet" target="_blank" data-content-guid="" style="margin-top:10px;"><!-- container box --><div class="transition clearfix grpelem" id="u157530-4"><!-- content --><p>ANDROID WALLET</p></div></a>
         </div>
        </div>
       </div>
@@ -256,7 +294,7 @@ min-height:100vh !important;
          </div>
         </div>
         <div class="ele-txt-up clearfix ose_pre_init grpelem shared_content" id="u167367-4" data-content-guid="u167367-4_content"><!-- content -->
-         <p>CORE TEAM</p>
+         <p>TEAM</p>
         </div>
        </div>
       </div>
@@ -276,18 +314,18 @@ min-height:100vh !important;
          <div class="clearfix colelem" id="u159381"><!-- group -->
           <a class="nonblock nontext clip_frame grpelem shared_content" id="u158427" href="https://bitcointalk.org/index.php?topic=778322.0" data-content-guid="u158427_content"><!-- svg --><img class="svg temp_no_img_src" id="u158428" data-orig-src="images/bitcoin.svg?crc=258925685" width="75" height="75" alt="" data-mu-svgfallback="images/bitcoin_poster_.png?crc=327013361" src="images/blank.gif?crc=4208392903"/></a>
           <a class="nonblock nontext clip_frame grpelem shared_content" id="u158431" href="https://twitter.com/monetaryunit" data-content-guid="u158431_content"><!-- svg --><img class="svg temp_no_img_src" id="u158432" data-orig-src="images/twitter.svg?crc=435103571" width="76" height="75" alt="" data-mu-svgfallback="images/twitter_poster_.png?crc=329703342" src="images/blank.gif?crc=4208392903"/></a>
-          <a class="nonblock nontext clip_frame grpelem shared_content" id="u158433" href="https://www.facebook.com/MonetaryUnit/" data-content-guid="u158433_content"><!-- svg --><img class="svg temp_no_img_src" id="u158434" data-orig-src="images/facebook.svg?crc=4090116050" width="75" height="75" alt="" data-mu-svgfallback="images/facebook_poster_.png?crc=124617662" src="images/blank.gif?crc=4208392903"/></a>
+          <a class="nonblock nontext clip_frame grpelem shared_content" id="u158433" href="http://discord.gg/5PD3X7G" data-content-guid="u158433_content"><!-- svg --><img class="svg temp_no_img_src" id="u158434" data-orig-src="images/discord.svg?crc=3822160892" width="75" height="75" alt="" data-mu-svgfallback="images/discord_poster_.png?crc=250091707" src="images/blank.gif?crc=4208392903"/></a>
           <a class="nonblock nontext clip_frame grpelem shared_content" id="u158435" href="https://tree.taiga.io/project/monetaryunit-monetaryunit/kanban" data-content-guid="u158435_content"><!-- svg --><img class="svg temp_no_img_src" id="u158436" data-orig-src="images/taiga.svg?crc=179814446" width="75" height="75" alt="" data-mu-svgfallback="images/taiga_poster_.png?crc=476687939" src="images/blank.gif?crc=4208392903"/></a>
           <a class="nonblock nontext clip_frame grpelem shared_content" id="u158437" href="https://github.com/MUEcoin/" data-content-guid="u158437_content"><!-- svg --><img class="svg temp_no_img_src" id="u158438" data-orig-src="images/github.svg?crc=3857064767" width="74" height="71" alt="" data-mu-svgfallback="images/github_poster_.png?crc=3926908979" src="images/blank.gif?crc=4208392903"/></a>
-          <a class="nonblock nontext clip_frame grpelem shared_content" id="u158439" href="http://discord.gg/5PD3X7G" data-content-guid="u158439_content"><!-- svg --><img class="svg temp_no_img_src" id="u158440" data-orig-src="images/discord.svg?crc=3822160892" width="75" height="75" alt="" data-mu-svgfallback="images/discord_poster_.png?crc=250091707" src="images/blank.gif?crc=4208392903"/></a>
+          <a class="" id="u158439" data-content-guid="u158439_content"><!-- svg --><img class="" id="u158440" data-orig-src="" width="75" height="75" alt="" data-mu-svgfallback="" src=""/></a>
          </div>
         </div>
        </div>
       </div>
-      <a class="nonblock nontext clearfix grpelem shared_content" id="u158441-4" href="https://muex.io" data-content-guid="u158441-4_content"><!-- content --><p id="u158441-2">MUEx.IO</p></a>
+      <a class="nonblock nontext clearfix grpelem shared_content" id="u158441-4" href="https://cryptofeed.io" data-content-guid="u158441-4_content"><!-- content --><p id="u158441-2">CryptoFeed.IO</p></a>
       <a class="nonblock nontext clearfix grpelem shared_content" id="u160404-4" href="https://mymue.com" data-content-guid="u160404-4_content"><!-- content --><p id="u160404-2">MyMUE.com</p></a>
       <a class="nonblock nontext clearfix grpelem shared_content" id="u158442-4" href="https://startmy.io" target="_blank" data-content-guid="u158442-4_content"><!-- content --><p id="u158442-2">StartMy.IO</p></a>
-      <a class="nonblock nontext clearfix grpelem shared_content" id="u160422-4" href="https://www.zazzle.com/monetaryunit" data-content-guid="u160422-4_content"><!-- content --><p id="u160422-2">Merch</p></a>
+      <a class="nonblock nontext clearfix grpelem shared_content" id="u160422-4" href="https://www.coinbuy.io" data-content-guid="u160422-4_content"><!-- content --><p id="u160422-2">CoinBuy.io</p></a>
       <div class="museBGSize grpelem shared_content" id="u159634" data-content-guid="u159634_content"><!-- simple frame --></div>
      </div>
     </div>
@@ -298,7 +336,7 @@ min-height:100vh !important;
         <p>BIZZYB</p>
        </div>
        <div class="ele-txt-left clearfix colelem" id="u168057-4"><!-- content -->
-        <p>Founder/Director - International Business Development (inc. UK)</p>
+        <p>Founder</p>
        </div>
        <div class="clearfix colelem" id="pu171604"><!-- group -->
         <div class="clearfix grpelem" id="u171604"><!-- group -->
@@ -328,7 +366,7 @@ min-height:100vh !important;
         <p>C4</p>
        </div>
        <div class="ele-txt-left clearfix colelem shared_content" id="u172757-4" data-content-guid="u172757-4_content"><!-- content -->
-        <p id="u172757-2">Director - Project Controls</p>
+        <p id="u172757-2">Project Controls</p>
        </div>
        <div class="clearfix colelem shared_content" id="pu172759" data-content-guid="pu172759_content"><!-- group -->
         <div class="clearfix grpelem" id="u172759"><!-- group -->
@@ -342,7 +380,7 @@ min-height:100vh !important;
         </div>
         <div class="clearfix grpelem" id="u172768"><!-- group -->
          <div class="pointer_cursor transition rounded-corners clearfix grpelem" id="u172769"><!-- group -->
-          <a class="block" target="_blank" href="https://twitter.com/Cryptophi"><!-- Block link tag --></a>
+          <a class="block" target="_blank" href="https://twitter.com/c44c_"><!-- Block link tag --></a>
           <a class="nonblock nontext transition clip_frame grpelem" id="u172770" href="https://twitter.com/c44c_" target="_blank"><!-- svg --><img class="svg temp_no_img_src" id="u172771" data-orig-src="images/team-twitter.svg?crc=51306509" width="59" height="60" alt="" data-mu-svgfallback="images/team-twitter_poster_.png?crc=255818440" src="images/blank.gif?crc=4208392903"/></a>
          </div>
         </div>
@@ -350,32 +388,51 @@ min-height:100vh !important;
       </div>
      </div>
      <div class="clearfix mse_pre_init shared_content" id="u174006" data-content-guid="u174006_content"><!-- group -->
+     <div class="rounded-corners clearfix grpelem" id="u172758"><!-- column -->
+       <div class="ele-txt-left clearfix colelem shared_content" id="u172767-4" data-content-guid="u172767-4_content"><!-- content -->
+        <p>Moonshot</p>
+       </div>
+       <div class="ele-txt-left clearfix colelem shared_content" id="u172757-4" data-content-guid="u172757-4_content"><!-- content -->
+        <p id="u172757-2">Technical Advisor</p>
+       </div>
+       <div class="clearfix colelem shared_content" id="pu172759" data-content-guid="pu172759_content"><!-- group -->
+        <div class="clearfix grpelem" id="u172759"><!-- group -->
+         <div class="pointer_cursor transition rounded-corners clearfix grpelem" id="u172760"><!-- group -->
+          <a class="block" target="_blank" href="https://bitcointalk.org/index.php?action=profile;u=1308930"><!-- Block link tag --></a>
+          <a class="nonblock nontext transition clip_frame grpelem" id="u172761" href="https://bitcointalk.org/index.php?action=profile;u=1308930" target="_blank"><!-- svg --><img class="svg temp_no_img_src" id="u172762" data-orig-src="images/team-bitcoin.svg?crc=3964627831" width="60" height="60" alt="" data-mu-svgfallback="images/team-bitcoin_poster_.png?crc=411505580" src="images/blank.gif?crc=4208392903"/></a>
+         </div>
+        </div>
+	<div class="transition clip_frame grpelem" id="u175637"><!-- svg -->
+         <img class="svg temp_no_img_src" id="u175638" data-orig-src="images/team-linkedin.svg?crc=372334575" width="59" height="60" alt="" data-mu-svgfallback="images/team-linkedin_poster_.png?crc=369636919" src="images/blank.gif?crc=4208392903"/>
+        </div>
+        <div class="clearfix grpelem" id="u172768"><!-- group -->
+         <div class="pointer_cursor transition rounded-corners clearfix grpelem" id="u172769"><!-- group -->
+          <a class="block" target="_blank" href="https://twitter.com/Tohsnoom_"><!-- Block link tag --></a>
+          <a class="nonblock nontext transition clip_frame grpelem" id="u172770" href="https://twitter.com/Tohsnoom_" target="_blank"><!-- svg --><img class="svg temp_no_img_src" id="u172771" data-orig-src="images/team-twitter.svg?crc=51306509" width="59" height="60" alt="" data-mu-svgfallback="images/team-twitter_poster_.png?crc=255818440" src="images/blank.gif?crc=4208392903"/></a>
+         </div>
+        </div>
+       </div>
+      </div>
      </div>
      <div class="clearfix mse_pre_init shared_content" id="u176079" data-content-guid="u176079_content"><!-- group -->
       <div class="rounded-corners clearfix grpelem" id="u173019"><!-- column -->
        <div class="ele-txt-left clearfix colelem shared_content" id="u173018-4" data-content-guid="u173018-4_content"><!-- content -->
-        <p>PJCLTD</p>
+        <p>sotblad</p>
        </div>
        <div class="ele-txt-left clearfix colelem shared_content" id="u173013-4" data-content-guid="u173013-4_content"><!-- content -->
-        <p>Director of 3rd party services</p>
+        <p>Developer</p>
        </div>
-       <div class="clearfix colelem shared_content" id="pu173020" data-content-guid="pu173020_content"><!-- group -->
-        <div class="clearfix grpelem" id="u173020"><!-- group -->
-         <div class="pointer_cursor transition rounded-corners clearfix grpelem" id="u173023"><!-- group -->
-          <a class="block" target="_blank" href="https://bitcointalk.org/index.php?action=profile;u=151913"><!-- Block link tag --></a>
-          <a class="nonblock nontext transition clip_frame grpelem" id="u173021" href="https://bitcointalk.org/index.php?action=profile;u=151913" target="_blank"><!-- svg --><img class="svg temp_no_img_src" id="u173022" data-orig-src="images/team-bitcoin.svg?crc=3964627831" width="60" height="60" alt="" data-mu-svgfallback="images/team-bitcoin_poster_.png?crc=411505580" src="images/blank.gif?crc=4208392903"/></a>
-         </div>
+              <div class="clearfix colelem shared_content" id="pu174259" data-content-guid="pu174259_content"><!-- group -->
+        <div class="transition clip_frame grpelem" id="u175841"><!-- svg -->
+         <img class="svg" id="u175798" width="59" height="60" alt="" data-mu-svgfallback="images/team-bitcoin.svg?crc=3964627831" src="images/team-bitcoin.svg?crc=3964627831">
         </div>
-        <div class="clearfix grpelem" id="u174012"><!-- group -->
-         <div class="pointer_cursor transition rounded-corners clearfix grpelem" id="u174013"><!-- group -->
-          <a class="block" target="_blank" href="https://www.linkedin.com/in/paul-jenkinson-28482974"><!-- Block link tag --></a>
-          <a class="nonblock nontext transition clip_frame grpelem" id="u174014" href="https://www.linkedin.com/in/paul-jenkinson-28482974" target="_blank"><!-- svg --><img class="svg temp_no_img_src" id="u174015" data-orig-src="images/team-linkedin.svg?crc=372334575" width="59" height="60" alt="" data-mu-svgfallback="images/team-linkedin_poster_.png?crc=369636919" src="images/blank.gif?crc=4208392903"/></a>
-         </div>
+	<div class="transition clip_frame grpelem" id="u175637"><!-- svg -->
+         <img class="svg temp_no_img_src" id="u175638" data-orig-src="images/team-linkedin.svg?crc=372334575" width="59" height="60" alt="" data-mu-svgfallback="images/team-linkedin_poster_.png?crc=369636919" src="images/blank.gif?crc=4208392903"/>
         </div>
        <div class="clearfix grpelem" id="u174018"><!-- group -->
          <div class="pointer_cursor transition rounded-corners clearfix grpelem" id="u174021"><!-- group -->
-          <a class="block" target="_blank" href="https://twitter.com/mphostinguk"><!-- Block link tag --></a>
-          <a class="nonblock nontext transition clip_frame grpelem" id="u174019" href="https://twitter.com/mphostinguk" target="_blank"><!-- svg --><img class="svg temp_no_img_src" id="u174020" data-orig-src="images/team-twitter.svg?crc=51306509" width="59" height="60" alt="" data-mu-svgfallback="images/team-twitter_poster_.png?crc=255818440" src="images/blank.gif?crc=4208392903"/></a>
+          <a class="block" target="_blank" href="https://twitter.com/sotblad"><!-- Block link tag --></a>
+          <a class="nonblock nontext transition clip_frame grpelem" id="u174019" href="https://twitter.com/sotblad" target="_blank"><!-- svg --><img class="svg temp_no_img_src" id="u174020" data-orig-src="images/team-twitter.svg?crc=51306509" width="59" height="60" alt="" data-mu-svgfallback="images/team-twitter_poster_.png?crc=255818440" src="images/blank.gif?crc=4208392903"/></a>
          </div>
         </div>
        </div>
@@ -387,7 +444,7 @@ min-height:100vh !important;
         <p>NOTSOFAST</p>
        </div>
        <div class="ele-txt-left clearfix colelem shared_content" id="u173261-4" data-content-guid="u173261-4_content"><!-- content -->
-        <p>Director - Finance</p>
+        <p>Finance</p>
        </div>
        <div class="clearfix colelem shared_content" id="pu173263" data-content-guid="pu173263_content"><!-- group -->
         <div class="clearfix grpelem" id="u173263"><!-- group -->
@@ -408,10 +465,57 @@ min-height:100vh !important;
        </div>
       </div>
      </div>
-     <div id="u176071"><!-- group -->
-	<br><br><br><br><br><br><br><br><br><br><br><br><a href="https://monetaryunit.org"><img src="/images/monetaryunit-logo.png" width="250%" height="500%"></a>
-	<center><a href="https://flubit.com"><img src="/images/flubit.png" width="150%" height="50%" style="float: right;position: absolute;"></center></a>
+     <div class="clearfix mse_pre_init shared_content" id="u176071" data-content-guid="u176071_content"><!-- group -->
+      <div class="rounded-corners clearfix grpelem" id="u174273"><!-- column -->
+       <div class="ele-txt-left clearfix colelem shared_content" id="u174272-4" data-content-guid="u174272-4_content"><!-- content -->
+        <p>ICJR</p>
+       </div>
+       <div class="ele-txt-left clearfix colelem shared_content" id="u174271-4" data-content-guid="u174271-4_content"><!-- content -->
+        <p>Developer</p>
+       </div>
+       <div class="clearfix colelem shared_content" id="pu174259" data-content-guid="pu174259_content"><!-- group -->
+        <div class="transition clip_frame grpelem" id="u175841"><!-- svg -->
+         <img class="svg" id="u175798" width="59" height="60" alt="" data-mu-svgfallback="images/team-bitcoin.svg?crc=3964627831" src="images/team-bitcoin.svg?crc=3964627831">
+        </div>
+        <div class="transition clip_frame grpelem" id="u175797"><!-- svg -->
+         <img class="svg temp_no_img_src" id="u175798" data-orig-src="images/team-linkedin.svg?crc=372334575" width="59" height="60" alt="" data-mu-svgfallback="images/team-linkedin_poster_.png?crc=369636919" src="https://www.monetaryunit.org/images/blank.gif?crc=4208392903"/>
+        </div>
+        <div class="clearfix grpelem" id="u174267"><!-- group -->
+         <div class="pointer_cursor transition rounded-corners clearfix grpelem" id="u174270"><!-- group -->
+          <a class="block" target="_blank" href="https://twitter.com/IzzyCasillasJr"><!-- Block link tag --></a>
+          <a class="nonblock nontext transition clip_frame grpelem" id="u174268" href="https://twitter.com/IzzyCasillasJr" target="_blank"><!-- svg --><img class="svg temp_no_img_src" id="u174269" data-orig-src="images/team-twitter.svg?crc=51306509" width="59" height="60" alt="" data-mu-svgfallback="images/team-twitter_poster_.png?crc=255818440" src="https://www.monetaryunit.org/images/blank.gif?crc=4208392903"/></a>
+         </div>
+        </div>
+       </div>
+      </div>
      </div>
+     <!--<div id="u176063"><!-- group -->
+     <div class="clearfix mse_pre_init shared_content" id="u176063" data-content-guid="u176063_content"><!-- group -->
+      <div class="rounded-corners clearfix grpelem" id="u173262"><!-- column -->
+       <div class="ele-txt-left clearfix colelem shared_content" id="u173271-4" data-content-guid="u173271-4_content"><!-- content -->
+        <p>Mikey</p>
+       </div>
+       <div class="ele-txt-left clearfix colelem shared_content" id="u173261-4" data-content-guid="u173261-4_content"><!-- content -->
+        <p>Developer</p>
+       </div>
+       <div class="clearfix colelem shared_content" id="pu173263" data-content-guid="pu173263_content"><!-- group -->
+        <div class="transition clip_frame grpelem" id="u175841"><!-- svg -->
+         <img class="svg" id="u175798" width="59" height="60" alt="" data-mu-svgfallback="images/team-bitcoin.svg?crc=3964627831" src="images/team-bitcoin.svg?crc=3964627831">
+        </div>
+        <div class="transition clip_frame grpelem" id="u175637"><!-- svg -->
+         <img class="svg temp_no_img_src" id="u175638" data-orig-src="images/team-linkedin.svg?crc=372334575" width="59" height="60" alt="" data-mu-svgfallback="images/team-linkedin_poster_.png?crc=369636919" src="images/blank.gif?crc=4208392903"/>
+        </div>
+        <div class="clearfix grpelem" id="u173272"><!-- group -->
+         <div class="pointer_cursor transition rounded-corners clearfix grpelem" id="u173273"><!-- group -->
+          <a class="block" target="_blank" href="https://twitter.com/MikeyCrypto02"><!-- Block link tag --></a>
+          <a class="nonblock nontext transition clip_frame grpelem" id="u173274" href="https://twitter.com/MikeyCrypto02" target="_blank"><!-- svg --><img class="svg temp_no_img_src" id="u173275" data-orig-src="images/team-twitter.svg?crc=51306509" width="59" height="60" alt="" data-mu-svgfallback="images/team-twitter_poster_.png?crc=255818440" src="images/blank.gif?crc=4208392903"/></a>
+         </div>
+        </div>
+       </div>
+      </div>
+      	<br><br><br><br><br><br><br><br><br><br><br><center><a href="https://flubit.com"><img src="/images/flubit1.png" width="150%" height="100%" style="float: right;position: absolute;"></center></a>
+     </div>
+	<!--<br><br><br><br><br><br><br><br><br><br><br><br><!--<a href="https://monetaryunit.org"><img src="/images/monetaryunit-logo.png" width="250%" height="500%"></a>-->
      <div class="" id="u176063"><!-- group -->
      </div>
      <div class="img-up clip_frame mse_pre_init shared_content" id="u157513" data-content-guid="u157513_content"><!-- svg -->
@@ -477,7 +581,7 @@ min-height:100vh !important;
        <p>We can't sit around and wait for new cryptocurrency market platforms to be populated by goods and services. We are instead targeting well established platforms to incorporate cryptocurrencies in a way that feels innate to the platform in the first place and not just an afterthought.</p>
       </div>
       <div class="ele-txt clearfix colelem" id="u156988-4"><!-- content -->
-       <p id="u156988-2">Furthermore recent migration to the X11 code base (based on DASH) allows us to reach a larger market of miners and brings added security with a rise in hash rate. The MasterNode network manages a pool of funds which is set aside to fund project initiatives moving forward. Proposals put before MasterNodes allow for a democratic and decentralized process over future decisions paving the way for MonetaryUnit to be a trusted and transparent means of transacting for generations to come.</p>
+       <!--<p id="u156988-2">Furthermore recent migration to the X11 code base (based on DASH) allows us to reach a larger market of miners and brings added security with a rise in hash rate. The MasterNode network manages a pool of funds which is set aside to fund project initiatives moving forward. Proposals put before MasterNodes allow for a democratic and decentralized process over future decisions paving the way for MonetaryUnit to be a trusted and transparent means of transacting for generations to come.</p>-->
       </div>
      </div>
      <div class="clearfix mse_pre_init shared_content" id="u164559" data-content-guid="u164559_content"><!-- column -->
@@ -592,17 +696,20 @@ min-height:100vh !important;
        <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing transition clearfix colelem" id="u142692" href="index.html#why-mue"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u142693-4"><!-- content --><p class="shared_content" data-content-guid="u142693-4_0_content">WHY MUE?</p></div></a>
       </div>
       <div class="MenuItemContainer clearfix grpelem" id="u142684"><!-- vertical box -->
-       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing transition clearfix colelem" id="u142687" href="index.html#get-started"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u142689-4"><!-- content --><p class="shared_content" data-content-guid="u142689-4_0_content">GET STARTED</p></div></a>
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing transition clearfix colelem" id="u142687" href="index.html#team"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u142689-4"><!-- content --><p class="shared_content" data-content-guid="u142689-4_0_content">TEAM</p></div></a>
       </div>
       <div class="MenuItemContainer clearfix grpelem" id="u176215"><!-- vertical box -->
-       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing transition clearfix colelem" id="u176218" href="index.html#team"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u176220-4"><!-- content --><p class="shared_content" data-content-guid="u176220-4_0_content">TEAM</p></div></a>
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing transition clearfix colelem" id="u176218" href="index.html#community"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u176220-4"><!-- content --><p class="shared_content" data-content-guid="u176220-4_0_content">COMMUNITY</p></div></a>
       </div>
       <div class="MenuItemContainer clearfix grpelem" id="u142698"><!-- vertical box -->
-       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing transition clearfix colelem" id="u142699" href="index.html#community"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u142702-4"><!-- content --><p class="shared_content" data-content-guid="u142702-4_0_content">COMMUNITY</p></div></a>
+       <!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u142702-4"><!-- content --><div class="dropdown"><p class="shared_content" data-content-guid="u142702-4_0_content" style="cursor:default">ADDITIONAL</p><div class="dropdown-content"><a href="/Branding/">Branding Guide</a><a href="/donors/">Donors</a><a href="/calculator/">ROI calculator</a></div></div></a>
       </div>
-<div class="MenuItemContainer clearfix grpelem" id="u154123">
-       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing transition clearfix colelem" id="u154126" href="/Branding/"><div class="MenuItemLabel NoWrap clearfix grpelem" id="u154129-4"><p class="shared_content" onclick="location.href='Branding'" data-content-guid="u154129-4_0_content">BRANDING GUIDE</p><!--<button type="button" class="shared_content" onclick="location.href='Branding'" data-content-guid="u154129-4_0_content">Buggy Whipp Bio</button>--></div></a>
+<!--<div class="MenuItemContainer clearfix grpelem" id="u154123">
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing transition clearfix colelem" id="u154126" href="/Branding/"><div class="MenuItemLabel NoWrap clearfix grpelem" id="u154129-4"><p class="shared_content" onclick="location.href='Branding'" data-content-guid="u154129-4_0_content">BRANDING GUIDE</p><!--<button type="button" class="shared_content" onclick="location.href='Branding'" data-content-guid="u154129-4_0_content">Buggy Whipp Bio</button></div></a>
       </div>
+      <div class="MenuItemContainer clearfix grpelem" id="u154123">
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing transition clearfix colelem" id="u154128" href="/donors/"><div class="MenuItemLabel NoWrap clearfix grpelem" id="u154129-4"><p class="shared_content" onclick="location.href='Donors'" data-content-guid="u157529-4_0_content">DONORS</p><!--<button type="button" class="shared_content" onclick="location.href='Branding'" data-content-guid="u154129-4_0_content">Buggy Whipp Bio</button></div></a>
+      </div>-->
      </nav>
     </div>
     <div class="verticalspacer" data-offset-top="6680" data-content-above-spacer="6680" data-content-below-spacer="106"></div>
@@ -1471,8 +1578,8 @@ min-height:100vh !important;
           <a class="nonblock nontext clip_frame ose_pre_init colelem temp_no_id" href="https://github.com/MUEcoin/" data-orig-id="u158437"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/github.svg?crc=3857064767" width="59" height="57" alt="" data-mu-svgfallback="images/github_poster_.png?crc=3926908979" data-orig-id="u158438" src="images/blank.gif?crc=4208392903"/></a>
          </div>
          <div class="clearfix grpelem temp_no_id" data-orig-id="pu158433"><!-- column -->
-          <a class="nonblock nontext clip_frame ose_pre_init colelem temp_no_id" href="https://www.facebook.com/MonetaryUnit/" data-orig-id="u158433"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/facebook.svg?crc=4090116050" width="60" height="60" alt="" data-mu-svgfallback="images/facebook_poster_.png?crc=124617662" data-orig-id="u158434" src="images/blank.gif?crc=4208392903"/></a>
-          <a class="nonblock nontext clip_frame ose_pre_init colelem temp_no_id" href="http://discord.gg/5PD3X7G" data-orig-id="u158439"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/discord.svg?crc=3822160892" width="60" height="60" alt="" data-mu-svgfallback="images/discord_poster_.png?crc=250091707" data-orig-id="u158440" src="images/blank.gif?crc=4208392903"/></a>
+          <!--<a class="nonblock nontext clip_frame ose_pre_init colelem temp_no_id" href="https://www.facebook.com/MonetaryUnit/" data-orig-id="u158433"><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/facebook.svg?crc=4090116050" width="60" height="60" alt="" data-mu-svgfallback="images/facebook_poster_.png?crc=124617662" data-orig-id="u158434" src="images/blank.gif?crc=4208392903"/></a>-->
+          <a class="nonblock nontext clip_frame ose_pre_init colelem temp_no_id" href="http://discord.gg/5PD3X7G" data-orig-id="u158433"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/discord.svg?crc=3822160892" width="60" height="60" alt="" data-mu-svgfallback="images/discord_poster_.png?crc=250091707" data-orig-id="u158434" src="images/blank.gif?crc=4208392903"/></a>
          </div>
         </div>
        </div>
@@ -1717,8 +1824,8 @@ min-height:100vh !important;
           <a class="nonblock nontext clip_frame ose_pre_init colelem temp_no_id" href="https://github.com/MUEcoin/" data-orig-id="u158437"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/github.svg?crc=3857064767" width="61" height="58" alt="" data-mu-svgfallback="images/github_poster_.png?crc=3926908979" data-orig-id="u158438" src="images/blank.gif?crc=4208392903"/></a>
          </div>
          <div class="clearfix grpelem temp_no_id" data-orig-id="pu158433"><!-- column -->
-          <a class="nonblock nontext clip_frame ose_pre_init colelem temp_no_id" href="https://www.facebook.com/MonetaryUnit/" data-orig-id="u158433"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/facebook.svg?crc=4090116050" width="62" height="62" alt="" data-mu-svgfallback="images/facebook_poster_.png?crc=124617662" data-orig-id="u158434" src="images/blank.gif?crc=4208392903"/></a>
-          <a class="nonblock nontext clip_frame ose_pre_init colelem temp_no_id" href="http://discord.gg/5PD3X7G" data-orig-id="u158439"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/discord.svg?crc=3822160892" width="62" height="62" alt="" data-mu-svgfallback="images/discord_poster_.png?crc=250091707" data-orig-id="u158440" src="images/blank.gif?crc=4208392903"/></a>
+          <!--<a class="nonblock nontext clip_frame ose_pre_init colelem temp_no_id" href="https://www.facebook.com/MonetaryUnit/" data-orig-id="u158433"><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/facebook.svg?crc=4090116050" width="62" height="62" alt="" data-mu-svgfallback="images/facebook_poster_.png?crc=124617662" data-orig-id="u158434" src="images/blank.gif?crc=4208392903"/></a>-->
+          <a class="nonblock nontext clip_frame ose_pre_init colelem temp_no_id" href="http://discord.gg/5PD3X7G" data-orig-id="u158433"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/discord.svg?crc=3822160892" width="62" height="62" alt="" data-mu-svgfallback="images/discord_poster_.png?crc=250091707" data-orig-id="u158434" src="images/blank.gif?crc=4208392903"/></a>
          </div>
         </div>
        </div>
