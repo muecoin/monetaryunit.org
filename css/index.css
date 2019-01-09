@@ -1426,7 +1426,7 @@
  transition-property:background-image,background-position,background-color,border-color,border-radius,color,font-size,font-style,font-weight,letter-spacing,line-height,text-align,box-shadow,text-shadow,opacity;
  transition-timing-function:ease;
  transition-delay:0s;
- background-color:#00CCCC;
+ background-color:#ffffff;
 }
 #u136761-4 {
  text-transform:uppercase;
@@ -1720,8 +1720,9 @@
 }
 #about,#features,#why-mue,#get-started,#team,#community {
  margin-right:-10000px;
- width:22px;
+ width:auto;
  position:relative;
+ left:250px;
 }
 #u158420 {
  background-color:#FFFFFF;
@@ -2320,6 +2321,7 @@
  }
  #u147311 {
   z-index:566;
+  left:156px;
  }
  #pu136776 {
   z-index:413;
@@ -3785,7 +3787,7 @@
   background-color:transparent;
   position:relative;
   margin-right:-10000px;
-  left:264px;
+  left:234px;
  }
  #u142687 {
   width:119px;
@@ -3847,7 +3849,7 @@
   background-color:transparent;
   position:relative;
   margin-right:-10000px;
-  left:385px;
+  left:335px;
  }
  #u176218 {
   width:60px;
@@ -3970,7 +3972,7 @@
   min-height:35px;
   background-color:transparent;
   position:relative;
-  margin-right:-10000px;
+  /*margin-right:-10000px;*/
   left:560px;
  }
  #u154126 {
@@ -4367,6 +4369,7 @@
  }
  #u147311 {
   z-index:566;
+  left:156px;
  }
  #pu136757-4 {
   z-index:432;
@@ -5905,7 +5908,7 @@
   background-color:transparent;
   position:relative;
   margin-right:-10000px;
-  left:264px;
+  left:234px;
  }
  #u142687 {
   width:119px;
@@ -5967,7 +5970,7 @@
   background-color:transparent;
   position:relative;
   margin-right:-10000px;
-  left:385px;
+  left:335px;
  }
  #u176218 {
   width:60px;
@@ -6090,7 +6093,7 @@
   min-height:35px;
   background-color:transparent;
   position:relative;
-  margin-right:-10000px;
+  /*margin-right:-10000px;*/
   left:560px;
  }
  #u154126 {
@@ -6489,6 +6492,7 @@
  }
  #u147311 {
   z-index:566;
+  left:156px;
  }
  #pu136757-4 {
   z-index:432;
@@ -8021,7 +8025,7 @@
   background-color:transparent;
   position:relative;
   margin-right:-10000px;
-  left:264px;
+  left:234px;
  }
  #u142687 {
   width:119px;
@@ -8083,7 +8087,7 @@
   background-color:transparent;
   position:relative;
   margin-right:-10000px;
-  left:385px;
+  left:335px;
  }
  #u176218 {
   width:60px;
@@ -8206,7 +8210,7 @@
   min-height:35px;
   background-color:transparent;
   position:relative;
-  margin-right:-10000px;
+  /*margin-right:-10000px;*/
   left:560px;
  }
  #u154126 {
@@ -8360,6 +8364,7 @@
  }
  #u147311 {
   z-index:523;
+  left:156px;
  }
  #pu136757-4 {
   z-index:432;
@@ -11162,6 +11167,7 @@
  }
  #u147311 {
   z-index:523;
+  left:156px;
  }
  #pu136757-4 {
   z-index:432;
@@ -11766,6 +11772,7 @@
  }
  #u147311 {
   z-index:522;
+  left:156px;
  }
  #pu136757-4 {
   z-index:431;
@@ -14479,6 +14486,7 @@
  }
  #u147311 {
   z-index:522;
+  left:156px;
  }
  #u160753,#u160753-bw {
   z-index:429;
