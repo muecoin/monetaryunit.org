@@ -1,0 +1,7 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/mue/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp buy.php $DEPLOYPATH
+    - /bin/cp /donors/ $DEPLOYPATH/donors/
+    - /bin/cp /Branding/ $DEPLOYPATH/Branding/
